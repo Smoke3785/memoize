@@ -3,9 +3,7 @@
 	"compilerOptions": {
 		"experimentalDecorators": true
 	},
-	"files": [
-		"index.ts"
-	],
+	"files": ["index.ts"],
 	"ts-node": {
 		"transpileOnly": true
 	}

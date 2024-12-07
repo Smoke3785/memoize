@@ -21,6 +21,7 @@
 	},
 	"scripts": {
 		"test": "xo && ava && npm run build && tsd --typings distribution/index.d.ts",
+		"test-nolint": "ava && npm run build && tsd --typings distribution/index.d.ts",
 		"build": "del-cli distribution && tsc",
 		"prepack": "npm run build"
 	},
