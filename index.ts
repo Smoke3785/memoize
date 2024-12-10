@@ -310,3 +310,5 @@ export function memoizeClear(function_: AnyFunction): void {
 		clearTimeout(timer);
 	}
 }
+
+export {memoize};
